@@ -1,0 +1,29 @@
+================================================================================================================
+          RISC-V VeeR EL2 SoC TEST WAVEFORM PRE-GENERATION & VERIFICATION SCORECARD
+================================================================================================================
+ Test ID | Outcome  | Exit Code | FSDB Size    | FSDB Waveform File       | Test Description
+----------------------------------------------------------------------------------------------------------------
+ TC-01   | PASS     | 0         | 788K         | waves/soc_tc01.fsdb      | RISC-V VeeR EL2 CPU Boot, Cold Reset & Memory Fetch Bring-Up
+ TC-02   | PASS     | 0         | 772K         | waves/soc_tc02.fsdb      | Unified Memory 32-Bit/Byte-Lane R/W Integrity & Stack Allocation
+ TC-03   | PASS     | 0         | 772K         | waves/soc_tc03.fsdb      | AXI4 Crossbar Slave Address Decoding & Bus Routing (M00-M06)
+ TC-04   | PASS     | 0         | 768K         | waves/soc_tc04.fsdb      | Reserved Buffer Region Isolation & Unmapped Slave M07 Protection
+ TC-05   | PASS     | 0         | 768K         | waves/soc_tc05.fsdb      | Core IFU/LSU Master Arbitration & Dual-Master Crossbar Concurrency
+ TC-06   | PASS     | 0         | 772K         | waves/soc_tc06.fsdb      | UART Line Control, Baud Rate Divisor & Transmitter Telemetry Operation
+ TC-07   | PASS     | 0         | 772K         | waves/soc_tc07.fsdb      | UART Receiver Frame Capture, Glitch Filter & Status Flag Tracking
+ TC-08   | PASS     | 0         | 772K         | waves/soc_tc08.fsdb      | GPIO Direction Configuration, Output Driving & Input Pin Sampling
+ TC-09   | PASS     | 0         | 772K         | waves/soc_tc09.fsdb      | GPIO Atomic Bit Manipulation (SET, CLEAR) & Error Flag Control
+ TC-10   | PASS     | 0         | 772K         | waves/soc_tc10.fsdb      | Hardware Timer Prescaler, Downward Decrement & Auto-Reload
+ TC-11   | PASS     | 0         | 768K         | waves/soc_tc11.fsdb      | Hardware Timer Compare Match & Interrupt Generation
+ TC-12   | PASS     | 0         | 768K         | waves/soc_tc12.fsdb      | SPI Master Controller Initialization, Mode 0 Clock & Manual Chip-Select
+ TC-13   | PASS     | 0         | 772K         | waves/soc_tc13.fsdb      | SPI Full-Duplex Sensor Byte Exchange & FIFO Status Tracking
+ TC-14   | PASS     | 0         | 772K         | waves/soc_tc14.fsdb      | PWM Fan Controller Duty Cycle Programming & Physical Waveform Modulation
+ TC-15   | PASS     | 0         | 772K         | waves/soc_tc15.fsdb      | Seven-Segment Display Packed BCD Data, Enable & Multiplexed Anode Scanning
+ TC-16   | PASS     | 0         | 768K         | waves/soc_tc16.fsdb      | Multi-Tier Autonomous Thermal Policy & Dynamic Fan Speed Regulation
+ TC-17   | PASS     | 0         | 18M          | waves/soc_tc17.fsdb      | End-to-End Real-Time Telemetry Streaming & Console Diagnostic Formatting
+ TC-18   | PASS     | 0         | 768K         | waves/soc_tc18.fsdb      | Sensor Communication Timeout, Out-of-Bounds Detection & Fail-Safe Emergency Cooling
+================================================================================================================
+ Total Targets : 18
+ Total Failed  : 0
+ STATUS        : ALL REQUESTED TEST WAVEFORMS PREPARED AND VERIFIED SUCCESSFULLY!
+ Generated on  : Sat Oct 31 14:07:11 IST 2026
+================================================================================================================

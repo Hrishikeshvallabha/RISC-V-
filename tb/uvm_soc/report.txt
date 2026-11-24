@@ -1,0 +1,15 @@
+Time(1ps)  *if_inst/gpio_in *t/gpio_drive_en *uvm/dut/gpio_io *pio_inst/gpio_i
+========== ================ ================ ================ ================
+0          00000000         00000000         ZZZZZZZZ         00000000        
+125000     00000000         00000000         ZZZZZZZZ         ZZZZZZZZ        
+135000     a5a55a5a         ffffffff         a5a55a5a         ZZZZZZZZ        
+155000     a5a55a5a         ffffffff         a5a55a5a         a5a55a5a        
+195000     5a5aa5a5         ffffffff         5a5aa5a5         a5a55a5a        
+215000     5a5aa5a5         ffffffff         5a5aa5a5         5a5aa5a5        
+255000     deadbeef         ffffffff         deadbeef         5a5aa5a5        
+275000     deadbeef         ffffffff         deadbeef         deadbeef        
+315000     12345678         ffffffff         12345678         deadbeef        
+335000     12345678         ffffffff         12345678         12345678        
+375000     00000000         00000000         ZZZZZZZZ         12345678        
+395000     00000000         00000000         ZZZZZZZZ         ZZZZZZZZ        
+600000     00000000         00000000         ZZZZZZZZ         ZZZZZZZZ        

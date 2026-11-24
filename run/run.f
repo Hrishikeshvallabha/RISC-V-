@@ -8,14 +8,12 @@
 #-------------------------
 # DUT
 #-------------------------
-/home/student/Documents/hon_070/proj_dir/rtl/axi_interconnect_wrap_2x8.v
-/home/student/Documents/hon_070/proj_dir/rtl/interconnect/arbiter.v
-/home/student/Documents/hon_070/proj_dir/rtl/interconnect/axi_interconnect.v
-/home/student/Documents/hon_070/proj_dir/rtl/interconnect/priority_encoder.v
-
-
+../rtl/IP's/interconnect/axi_interconnect_wrap_2x8.v
+../rtl/IP's/interconnect/arbiter.v
+../rtl/IP's/interconnect/axi_interconnect.v
+../rtl/IP's/interconnect/priority_encoder.v
 
 #-------------------------
 # TESTBENCH
 #-------------------------
-/home/student/Documents/hon_070/proj_dir/tb/tb_axi_interconnect_wrap_2x8_ACTIVITY_FIXED.sv
+../tb/tb_axi_interconnect_wrap_2x8_ACTIVITY_FIXED.sv
