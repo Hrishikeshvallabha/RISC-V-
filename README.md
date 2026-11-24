@@ -177,3 +177,11 @@ The VeeR EL2 reference manual is used as processor documentation; its inclusion 
 ---
 
 *This repository contains the RTL design, verification environment, address mapping, and documentation associated with the RISC-V based SoC project.*
+
+
+## RISC-V Core
+
+The RISC-V processor core used in this project is based on an
+externally maintained GitHub repository.
+
+Refer to the original repository for the processor core source code.
