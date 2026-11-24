@@ -183,5 +183,5 @@ The VeeR EL2 reference manual is used as processor documentation; its inclusion 
 
 The RISC-V processor core used in this project is based on an
 externally maintained GitHub repository.
-
+https://github.com/chipsalliance/Cores-VeeR-EL2.git
 Refer to the original repository for the processor core source code.
